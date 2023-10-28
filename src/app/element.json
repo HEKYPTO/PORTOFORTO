@@ -1,0 +1,60 @@
+{
+    "firstname": "Yanapat",
+    "lastname": "Patcharawiwatpong",
+    "desc": "Passionate Data and AI Enthusiast",
+    "address": "2909 Chalernkrung Road, Bangkok (Office)", 
+    "tel": "(+66) 98 495 1642",
+    "contactList": ["tsunyanapat@gmail.com", "github/HEKYPTO", "linkedin/yanapat-patcharawiwatpong"],
+    "contactLink": ["mailto:tsunyanapat@gmail.com", "https://github.com/HEKYPTO", "https://www.linkedin.com/in/yanapat-patcharawiwatpong-030216298/"],
+    
+    "about": [
+        "Versatile developer deeply passionate about DATA, AI, and LINUX, ",
+        "with extensive experience in intermediate WEB DEVelopment. ",
+        "These skills empower me to excel across various technology domains. ",
+        "And my continuous growth in the ever-evolving world of technology."
+    ],
+
+    "educations": [
+        "Chulalongkorn University",
+        "Patumwan Demonstration School"
+    ],
+    "details": [
+        ["Bachelor of Engineering Computer Engineering", "GPAX 3.55", "2021 - Now"],
+        ["Math-Science Department", "GPAX 3.73"]
+    ],
+
+    "technology": [
+        "Languages", 
+        "Library",
+        "Dev Tools"
+    ],
+    "tech-info": [
+        ["C", "C#", "CPP", "JAVA", "JS", "LUA", "PHP", "PYTHON", "R", "RUBY", "RUST", "SCALA", "TS"],
+        ["PyTorch", "TensorFlow", "Seaborn", "Next", "Node", "Tailwind", "React", "Vue", "Angular", "Solid"],
+        ["Git", "Jupyter", "Linux", "Nvim", "IntelliJIDEA", "Visual Studio", "Visual Studio Code"]
+    ],
+
+    "projects": [
+        "TrafficJam",
+        "LeAntique",
+        "Void Seekers",
+        "Ao Nam Nin"
+    ],
+    "projects-info": [
+        "Machine Learning Algorithms and Time Series Analysis predictions on traffic congestion.",
+        "Experience the Antiquity Exchange, Market, and Auction Online seamlessly with Next.js and Node.",
+        "JavaFX-powered top-down dungeon crawler featuring intricate 2D sprites",
+        "Unity3D game as DEEP diver, battling monsters, repairing submarines, and surviving the depths for a thrilling experience."
+    ],
+
+    "achievement": [
+        "Winner (First Place) in AiHackTH Competition 2022",
+        "Participated in cyber security Thailand Cyber Top Talent 2023"
+    ],
+
+    "interests": [
+        "Fedora & Debian Enjoyer",
+        "Learning to work live balance",
+        "Trying to apply cutting tech into my dialy life"
+    ]
+}
