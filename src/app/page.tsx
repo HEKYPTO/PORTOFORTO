@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Hidable from "./hidable/Hidable";
 import Menu from "./Menubar";
 import ButtonBar from "./PrintButton";
 import Background from "./Background";
