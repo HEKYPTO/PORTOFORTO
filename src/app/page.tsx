@@ -7,13 +7,14 @@ import Background from "./Background";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
+      <title>Portoforto</title>
       <div>
         <Menu />
         <ButtonBar />
       </div>
       <Background />
-    </div>
+    </>
   );
 };
 

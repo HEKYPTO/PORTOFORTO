@@ -1,14 +1,26 @@
-import React from "react";
+import React, {lazy, Suspense} from "react";
 import Hidable from "./hidable/Hidable";
 import CurrentTimeComponent from "./CurrentTimeComponent";
 import element from "./element.json";
+
+const LazyCurrentTimeComponent = lazy(() => import("./CurrentTimeComponent"));
+
+const LazyLoadedComponent = () => {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <LazyCurrentTimeComponent />
+      </Suspense>
+    </div>
+  );
+};
 
 const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <div ref={ref}>
       <div className="text-left p-1 m-0 md:m-1 max-w-screen-xl">
         <Hidable>
-          <CurrentTimeComponent />
+          <LazyLoadedComponent />
         </Hidable>
         <div className="mx-16">
           <Hidable>
