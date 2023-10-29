@@ -1,6 +1,5 @@
 import React, {lazy, Suspense} from "react";
 import Hidable from "./hidable/Hidable";
-import CurrentTimeComponent from "./CurrentTimeComponent";
 import element from "./element.json";
 
 const LazyCurrentTimeComponent = lazy(() => import("./CurrentTimeComponent"));
@@ -61,10 +60,10 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
               </React.Fragment>
             ))}
           </div>
-          <hr></hr>
           <br />
           <Hidable>
             <h2 className="text-2xl font-semibold">About Me</h2>
+            <hr />
           </Hidable>
           <Hidable>
             <p className="text-base">{element.about.join(" ")}</p>
@@ -72,6 +71,7 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
           <br />
           <Hidable>
             <h2 className="text-2xl font-semibold">Education</h2>
+            <hr />
           </Hidable>
           {element.educations.map((item, index) => (
             <React.Fragment key={index}>
@@ -82,7 +82,7 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
                 {element.details[index].map((detail, idx) => (
                   <React.Fragment key={idx}>
                     <Hidable>
-                    <p className="text-base">{detail}</p>
+                    <p className="text-sm">{detail}</p>
                     </Hidable>
                     {idx !== element.details[index].length - 1 && (
                       <Hidable>
@@ -94,10 +94,10 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
                 </div>
             </React.Fragment>
           ))}
-          <hr></hr>
           <br />
           <Hidable>
             <h2 className="text-2xl font-semibold">Projects</h2>
+            <hr />
           </Hidable>
           {element.projects.map((item, index) => (
             <React.Fragment key={index}>
@@ -116,6 +116,7 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
           <br />
           <Hidable>
             <h2 className="text-2xl font-semibold">Achievements</h2>
+            <hr />
           </Hidable>
           {element.achievement.map((item, index) => (
             <React.Fragment key={index}>
@@ -128,10 +129,10 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
               </ul>
             </React.Fragment>
           ))}
-          <hr></hr>
           <br />
           <Hidable>
             <h2 className="text-2xl font-semibold">Technology</h2>
+            <hr />
           </Hidable>
           {element.technology.map((val, index) => (
             <React.Fragment key={index}>
@@ -153,10 +154,10 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
               </ul>
             </React.Fragment>
           ))}
-          <hr></hr>
           <br/>
           <Hidable>
             <h2 className="text-2xl font-semibold">Interests</h2>
+            <hr />
           </Hidable>
           {element.interests.map((val, index) => (
             <React.Fragment key={index}>
