@@ -94,6 +94,12 @@ const ComponentToPrint = React.forwardRef<HTMLDivElement>((props, ref) => {
                 </div>
             </React.Fragment>
           ))}
+          <Hidable>
+            <p className="text-base font-semibold">Related Coursework: </p>
+          </Hidable>
+          <Hidable>
+            <span className="text-sm">{element.courses.join(", ")}</span>
+          </Hidable>
           <br />
           <Hidable>
             <h2 className="text-2xl font-semibold">Projects</h2>

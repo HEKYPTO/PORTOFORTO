@@ -1,17 +1,21 @@
 {
     "firstname": "Yanapat",
     "lastname": "Patcharawiwatpong",
-    "desc": "Passionate Data and AI Enthusiast",
+    "desc": "Passionate Developer and AI Enthusiast",
     "address": "2909 Charoen Krung Road, Bangkok (Office)", 
     "tel": "(+66) 98 495 1642",
     "contactList": ["tsunyanapat@gmail.com", "github/HEKYPTO", "linkedin/yanapat-patcharawiwatpong"],
     "contactLink": ["mailto:tsunyanapat@gmail.com", "https://github.com/HEKYPTO", "https://www.linkedin.com/in/yanapat-patcharawiwatpong-030216298/"],
     
+    "objective": [
+
+    ],
+    
     "about": [
-        "Versatile developer deeply passionate about DATA, AI, and LINUX, ",
-        "with extensive experience in intermediate WEB DEVelopment. ",
+        "Versatile developer passionate about DATA, AI, and LINUX, ",
+        "with intermediate experiece in WEB DEVelopment. ",
         "These skills empower me to excel across various technology domains. ",
-        "And my continuous growth in the ever-evolving world of technology."
+        "And continuous growth in the ever-evolving world of technology."
     ],
 
     "educations": [
@@ -19,6 +23,17 @@
     ],
     "details": [
         ["Bachelor of Engineering Computer Engineering", "GPAX 3.58", "2021 - Now (Expected 2025)"]
+    ],
+    "courses": [
+        "Computer Programming",
+        "Data structure", 
+        "Algorithm Design", 
+        "Computer Engineering Math",
+        "Software Engineering",
+        "Database System",
+        "Data Analytics and Data Visualization",
+        "Machine Learning and Time Serires Analysis",
+        "Practical Internet of Things"
     ],
 
     "technology": [
