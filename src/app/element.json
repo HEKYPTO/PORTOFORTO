@@ -43,15 +43,15 @@
     ],
     "tech-info": [
         ["C", "C#", "CPP", "JAVA", "JS", "LUA", "PHP", "PYTHON", "R", "RUBY", "RUST", "SCALA", "TS"],
-        ["PyTorch", "TensorFlow", "Seaborn", "Next", "Node", "Tailwind", "React", "Vue", "Angular", "Solid"],
+        ["PyTorch", "TensorFlow", "Seaborn", "Next", "Node", "Bun", "Tailwind", "Vue", "Angular", "Solid"],
         ["Git", "Jupyter", "Linux", "Nvim", "IntelliJIDEA", "Visual Studio", "Visual Studio Code"]
     ],
 
     "projects": [
-        "TrafficJam",
-        "LeAntique",
-        "Void Seekers",
-        "Ao Nam Nin"
+        "TrafficJam (ML and Data Analysis)",
+        "LeAntique (Frontend)",
+        "Void Seekers (Programmer)",
+        "Ao Nam Nin (Programmer)"
     ],
     "projects-info": [
         "Machine Learning Algorithms and Time Series Analysis predictions on traffic congestion.",
